@@ -12,27 +12,36 @@ function setPage(){
         .attr("class", "row")
 
     //first image in folder
+    var thumbnail1 = '../assets/Maps/silk-road-zarley-thumbnail.png'
     var path1 = '../assets/Maps/silk-road-zarley.png'
     var imgTitle1 = "Ancient Silk Road"
     //create
-    createImg(row, path1, imgTitle1)
+    createImg(row, thumbnail1, path1, imgTitle1)
 
     //first image in folder
+    var thumbnail2 = '../assets/Maps/ca_kindergarten_vac_zarley-thumbnail.png'
     var path2 = '../assets/Maps/ca_kindergarten_vac_zarley.png'
     var imgTitle2 = "Kindergarten Vaccinations in CA, 2014-2015"
     //create
-    createImg(row, path2, imgTitle2)
+    createImg(row, thumbnail2, path2, imgTitle2)
+
+    //first image in folder
+    var thumbnail3 = '../assets/Maps/USGS-CVI-zarley-thumbnail.png'
+    var path3 = 'http://alexzarley.github.io/CoastalVulnerability/'
+    var imgTitle3 = "Coastal Vulnerability"
+    //create
+    createImg(row, thumbnail3, path3, imgTitle3)
 
 
 }
 
-function createImg(row, image, title) {
+function createImg(row, thumbnail, image, title) {
     var imgContainer = row.append("div")
         .attr("class", "col-md-4 col-sm-6")
 
     var map1 = imgContainer.append("div")
         .attr("class", "thumbnail portfolio-thumbnail")
-        .html("<a href=" + image + " target='_blank'> <img src=" + image + " alt='Silk Road' class='img-responsive portfolio-thumbnail-img'/></a>")
+        .html("<a href=" + image + " target='_blank'> <img src=" + thumbnail + " alt='Silk Road' class='img-responsive portfolio-thumbnail-img'/></a>")
 
     var titleLink = imgContainer.append("h2")
         .attr("class", "portfolio-link")
