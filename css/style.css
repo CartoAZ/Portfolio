@@ -5,6 +5,28 @@
     border-color: green;
 }
 
+.portfolio-link {
+    margin-top: 0;
+    text-align: center;
+}
+
+.portfolio-thumbnail {
+  margin-top: 10px;
+}
+
+.thumbnail {
+  margin-bottom: 0;
+}
+
+.portfolio-thumbnail:hover {
+    border-color: #a74ea5;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+/*.portfolio-asset {text-align: center; margin-bottom: 0; }*/
+
+/*.portfolio-caption { text-align: center; }*/
 /*.portfolio-thumbnail img{
     height: 250px;
 }*/
