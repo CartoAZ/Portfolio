@@ -12,10 +12,16 @@ function setPage(){
         .attr("class", "row")
 
     //first image in folder
-    var path1 = '../assets/Maps/silk-road-zarley.jpg'
+    var path1 = '../assets/Maps/silk-road-zarley.png'
     var imgTitle1 = "Ancient Silk Road"
     //create
     createImg(row, path1, imgTitle1)
+
+    //first image in folder
+    var path2 = '../assets/Maps/ca_kindergarten_vac_zarley.png'
+    var imgTitle2 = "Kindergarten Vaccinations in CA, 2014-2015"
+    //create
+    createImg(row, path2, imgTitle2)
 
 
 }
