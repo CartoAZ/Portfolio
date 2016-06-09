@@ -17,67 +17,67 @@ function setPage(){
 
     var professions = jumbotronContainer.append("p")
         .html("Cartographer | GIS | Archaeologist")
-
-    var navbar = d3.select("body").append("nav")
-        .attr("class", "navbar navbar-default navbar-fixed-top main-navbar")
-
-    var navContainer = navbar.append("div")
-        .attr("class", "container")
-
-    var navHeader = navContainer.append("div")
-        .attr("class", "navbar-header")
-
-    var navCollButton = navHeader.append("button")
-        .attr("type", "button")
-        .attr("class", "navbar-toggle collapsed")
-        .attr("data-toggle", "collapse")
-        .attr("data-target", "#navbar")
-        .attr("aria-expanded", "false")
-        .attr("aria-controls", "navbar")
-
-    var span1 = navCollButton.append("span")
-        .attr("class", "sr-only")
-        .html("Toggle navigation")
-
-    var span2 = navCollButton.append("span")
-        .attr("class", "glyphicon glyphicon-menu-hamburger")
-
-    var span3 = navCollButton.append("span")
-        .attr("class", "menu")
-        .html("Menu")
-
-    var navbarBrand = navHeader.append("a")
-        .attr("class", "navbar-brand")
-        .attr("href", "#")
-        .html("Alex Zarley")
-
-    var navbarDiv = navContainer.append("div")
-        .attr("id", "navbar")
-        .attr("class", "collapse navbar-collapse")
-
-    var navbarUl = navbarDiv.append("ul")
-        .attr("class", "nav navbar-nav")
-
-    var about = navbarUl.append("li")
-        .append("a")
-          .attr("href", "about.html")
-          .html("About")
-
-    var portfolio = navbarUl.append("li")
-        .append("a")
-          .attr("href", "portfolio.html")
-          .html("Portfolio")
-
-    var resume = navbarUl.append("li")
-        .append("a")
-          .attr("href", "resume.html")
-          .html("Resume")
-
-    var contact = navbarUl.append("li")
-        .append("a")
-          .attr("href", "contact.html")
-          .html("Contact")
-
+    // 
+    // var navbar = d3.select("body").append("nav")
+    //     .attr("class", "navbar navbar-default navbar-fixed-top main-navbar")
+    //
+    // var navContainer = navbar.append("div")
+    //     .attr("class", "container")
+    //
+    // var navHeader = navContainer.append("div")
+    //     .attr("class", "navbar-header")
+    //
+    // var navCollButton = navHeader.append("button")
+    //     .attr("type", "button")
+    //     .attr("class", "navbar-toggle collapsed")
+    //     .attr("data-toggle", "collapse")
+    //     .attr("data-target", "#navbar")
+    //     .attr("aria-expanded", "false")
+    //     .attr("aria-controls", "navbar")
+    //
+    // var span1 = navCollButton.append("span")
+    //     .attr("class", "sr-only")
+    //     .html("Toggle navigation")
+    //
+    // var span2 = navCollButton.append("span")
+    //     .attr("class", "glyphicon glyphicon-menu-hamburger")
+    //
+    // var span3 = navCollButton.append("span")
+    //     .attr("class", "menu")
+    //     .html("Menu")
+    //
+    // var navbarBrand = navHeader.append("a")
+    //     .attr("class", "navbar-brand")
+    //     .attr("href", "#")
+    //     .html("Alex Zarley")
+    //
+    // var navbarDiv = navContainer.append("div")
+    //     .attr("id", "navbar")
+    //     .attr("class", "collapse navbar-collapse")
+    //
+    // var navbarUl = navbarDiv.append("ul")
+    //     .attr("class", "nav navbar-nav")
+    //
+    // var about = navbarUl.append("li")
+    //     .append("a")
+    //       .attr("href", "about.html")
+    //       .html("About")
+    //
+    // var portfolio = navbarUl.append("li")
+    //     .append("a")
+    //       .attr("href", "portfolio.html")
+    //       .html("Portfolio")
+    //
+    // var resume = navbarUl.append("li")
+    //     .append("a")
+    //       .attr("href", "resume.html")
+    //       .html("Resume")
+    //
+    // var contact = navbarUl.append("li")
+    //     .append("a")
+    //       .attr("href", "contact.html")
+    //       .html("Contact")
+    //
 
 
 

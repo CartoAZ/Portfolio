@@ -1,3 +1,10 @@
+/*pagecontent*/
+.page-content { padding: 30px 0; }
+
+.page-heading { font-size: 20px; }
+
+
+/*portfolio*/
 .portfolio-thumbnail {
 
     border-width: 2px;
