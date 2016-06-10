@@ -16,6 +16,10 @@
 
 .current-page { background-color: #549a41; }
 
+.jumbotron {
+    color: white;
+}
+
 b, strong {
     font-weight: bold;
 }
