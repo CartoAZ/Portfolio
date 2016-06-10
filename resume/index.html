@@ -7,9 +7,9 @@
 		<title>Alex Zarley</title>
 
 		<!--put your Bootstrap stylesheet links above style.css-->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
 		<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="../css/style.css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
 		<![endif]-->
@@ -17,7 +17,7 @@
 
 	<body>
 		<header>
-			<nav class="navbar navbar-default navbar-fixed-top main-navbar"> <!-- Creates the navbar -->
+			<nav class="navbar navbar-default navbar-fixed-top main-navbar site-header"> <!-- Creates the navbar -->
 				<div class="container">
 					<div class="navbar-header"> <!-- Creates the navbar header -->
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,53 +29,170 @@
 					</div>
 
 					<div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
-						<ul class="nav navbar-nav"> <!-- Unordered list for links on navbar -->
-							<li><a href="about.html">About</a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="resume.html">Resume</a></li>
-							<li><a href="contact.html">Contact</a></li>
+						<ul class="nav navbar-nav navbar-right"> <!-- Unordered list for links on navbar -->
+							<li><a href="/about">About</a></li>
+							<li><a href="/portfolio">Portfolio</a></li>
+							<li><a class="current-page" href="/resume">Resume</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</div> <!-- end .navbar-collapse -->
 				</div> <!-- end .container -->
 			</nav> <!-- end navigation bar -->
 
-			<!--put your initial page content here-->
-
-			<!-- <div class="row">
-
-        <div class="col-md-4 col-sm-6">
-          <div class="thumbnail portfolio-thumbnail">
-            <a href="../assets/Maps/silk-road-zarley.jpg" target="_blank">
-              <img src="../assets/Maps/silk-road-zarley.jpg" alt="Silk Road" class="img-responsive portfolio-thumbnail-img"/>
-            </a>
-          </div>
-          <h2 class="portfolio-link">
-            <a class="post-link" href="portfolio/silk-road-zarley.html">Ancient Silk Road</a>
-          </h2>
-        </div>
-
-				<div class="col-md-4 col-sm-6">
-          <div class="thumbnail portfolio-thumbnail">
-            <a href="/portfolio/silk-road-zarley.html">
-              <img src="../assets/Maps/silk-road-zarley.jpg" alt="Silk Road" class="img-responsive portfolio-thumbnail-img"/>
-            </a>
-          </div>
-          <h2 class="portfolio-link">
-            <a class="post-link" href="portfolio/silk-road-zarley.html">Ancient Silk Road</a>
-          </h2>
-        </div> -->
-			<!--you can also use this space for internal scripts or stylesheets;
-			place these within <script> or <style> tags-->
-			<!-- <div class="container-fluid">
-			</div> -->
-			<script src="https://d3js.org/d3-queue.v2.min.js"></script>
-			<script src="http://d3js.org/topojson.v1.min.js"></script>
-			<script type="text/javascript" src="lib/d3.min.js"></script>
 			<script type="text/javascript" src="lib/jquery-2.2.0.js"></script>
 			<script type="text/javascript" src="lib/bootstrap.min.js"></script>
-			<script type="text/javascript" src="js/main.js"></script>
     </header>
 
+		<div class="page-content">
+
+
+			<div class="container resume">
+			  <div class="row resume-section">
+			    <div class="col-md-12"><h2>Work Experience</h2></div>
+
+		      <div class="col-md-12 resume-job">
+		        <div class="col-sm-4 col-md-3 job-logo-container">
+		          <img src="../assets/uw_logo.png" class="job-logo">
+		        </div>
+		        <div class="col-sm-8 col-md-9 job-description-container">
+		          <h3 class="job-header">UW Cartography Lab <small> WordPress Developer </small></h3>
+		          <h4 class="job-time-location"><strong>Summer 2016</strong> | Madison, WI</h4>
+		          <p class="job-description">I am helping with the redesign of the Geography Department's website using WordPress. I am responsible for finding plugins to meet our needs and creating custom plugins when what we need doesn't exist.</p>
+		        </div>
+		      </div>
+
+					<div class="col-md-12 resume-job">
+						<div class="col-sm-4 col-md-3 job-logo-container">
+							<img src="../assets/uw_logo.png" class="job-logo">
+						</div>
+						<div class="col-sm-8 col-md-9 job-description-container">
+							<h3 class="job-header">UW Pepperell Lab <small> Cartographer & GIS Analyst </small></h3>
+							<h4 class="job-time-location"><strong>2015 - 2016</strong> | Madison, WI</h4>
+							<p class="job-description">
+								<a href="https://pepperell.labs.wisc.edu/">The Pepperell Lab</a> studies the ecology and evolution of infectious diseases. I am working on a phylogeography project that identified several lineages of <i>Mycobacterium tuberculosis</i> in modern samples and traced each back to a common ancestor ca. 700 BCE. Ancient trade, in particular the Silk Road, was thought to have been a means of transportation for the disease, so I performed network analysis using modern <i> M. tuberculosis</i> isolate locations and ancient trade routes to help determine the spatial patterns of genetic variation among the isolates. I am also creating several static maps for publication, which show the location of isolates in respect to ancient trade routes, as well as an interactive map that shows the spread of the disease through time.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-12 resume-job">
+						<div class="col-sm-4 col-md-3 job-logo-container">
+							<img src="../assets/ncsu.png" class="job-logo">
+						</div>
+						<div class="col-sm-8 col-md-9 job-description-container">
+							<h3 class="job-header">NC State University History Department <small> Teaching Assistant </small></h3>
+							<h4 class="job-time-location"><strong>2014</strong> | Raleigh, NC</h4>
+							<p class="job-description">
+								I taught several discussion sections for the history of the ancient world survey course. Students would read or study primary sources such as inscriptions, ancient monuments and structures, archaeological finds, and ancient texts, and I would lead them in discussions about each to teach them the methods of historical analysis and research. I also taught them the basics of writing research papers by developing a thesis statement and using primary and secondary sources to develop an argument.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-12 resume-job">
+						<div class="col-sm-4 col-md-3 job-logo-container">
+							<img src="../assets/epic.png" class="job-logo">
+						</div>
+						<div class="col-sm-8 col-md-9 job-description-container">
+							<h3 class="job-header">Epic Systems Corporation <small> Project Manager & Quality Assurance </small></h3>
+							<h4 class="job-time-location"><strong>2010 - 2013</strong> | Madison, WI</h4>
+							<p class="job-description">
+								Epic is the world's largest medical software company. As a project manager, I worked on 6-12 month projects installing electronic medical record systems at hospitals. I was responsible for ensuring my application teams met deadlines and milestones throughout the project, as well as helping to ensure the system was set up to meet as many of their organization's needs as possible.  I also helped optimize EMR systems after installation by debugging. In Quality Assurance I helped design and test the software. I learned the principles of user interface and user experience engineering, and conducted several end user tests in the user centered design process. I learned excellent time management skills.
+							</p>
+						</div>
+					</div>
+<!--
+					<div class="col-md-12 resume-job">
+						<div class="col-sm-4 col-md-3 job-logo-container">
+							<img src="../assets/Rei_coop_logo.png" class="job-logo">
+						</div>
+						<div class="col-sm-8 col-md-9 job-description-container">
+							<h3 class="job-header">REI <small> Shipping and Receiving & Sales </small></h3>
+							<h4 class="job-time-location"><strong>2015</strong> | Cary, NC</h4>
+						</div>
+					</div>
+
+					<div class="col-md-12 resume-job">
+						<div class="col-sm-4 col-md-3 job-logo-container">
+							<img src="../assets/tennispklogo.jpg" class="job-logo">
+						</div>
+						<div class="col-sm-8 col-md-9 job-description-container">
+							<h3 class="job-header">Cary Tennis Park <small> Tennis Pro </small></h3>
+							<h4 class="job-time-location"><strong>2015</strong> | Cary, NC</h4>
+						</div>
+					</div>
+
+					<div class="col-md-12 resume-job">
+						<div class="col-sm-4 col-md-3 job-logo-container">
+							<img src="../assets/Rei_coop_logo.png" class="job-logo">
+						</div>
+						<div class="col-sm-8 col-md-9 job-description-container">
+							<h3 class="job-header">REI <small> Shipping and Receiving & Sales </small></h3>
+							<h4 class="job-time-location"><strong>2013-2014</strong> | Pittsburgh, PA</h4>
+						</div>
+					</div>
+ -->
+				</div>
+
+				<hr class="resume-hr">
+					<div class="row resume-section">
+						<div class="col-sm-12">
+							<h2>Technical Skills</h2>
+						</div>
+						<div class="col-sm-12">
+							<div class="col-sm-4 resume-skills-section">
+								<h3>Cartography, GIS, Remote Sensing</h3>
+									<p>
+										ArcGIS | QGIS | ENVI
+									</p>
+							</div>
+							<div class="col-sm-4 resume-skills-section">
+								<h3>Programming & Databases</h3>
+									<p>
+										JavaScript | D3 | jQuery | Leaflet | GitHub | WordPress | Python | Git | Command line
+									</p>
+							</div>
+							<div class="col-sm-4 resume-skills-section">
+								<h3>Design</h3>
+									<p>
+										Illustrator | HTML | CSS | Bootstrap | Photoshop
+									</p>
+							</div>
+						</div>
+					</div>
+
+				<hr class="resume-hr">
+
+				<div class="row resume-section">
+		      <div class="col-sm-12">
+		        <h2>Education</h2>
+		      </div>
+
+		        <div class="col-md-12 resume-education">
+		          <div class="col-sm-4 col-md-3 education-logo-container">
+		            <img src="../assets/uw_logo.png" class="education-logo">
+		          </div>
+		          <div class="col-sm-8 col-md-9 education-description-container">
+		            <h3 class="education-header">University of Wisconsin–Madison</h3>
+								<h3><small> Graduate Certificate - GIS </small></h3>
+		            <h4 class="education-date"><strong>2016</strong> | <small><strong>GPA: </strong>4.0/4.0</small></h4>
+		          </div>
+		        </div>
+
+		        <div class="col-md-12 resume-education">
+		          <div class="col-sm-4 col-md-3 education-logo-container">
+		            <img src="../assets/uw_logo.png" class="education-logo">
+		          </div>
+		          <div class="col-sm-8 col-md-9 education-description-container">
+		            <h3 class="education-header">University of Wisconsin–Madison</h3>
+								<h3><small> BA Classics with Honors, BA Classical Huamnities with Honors, Certificate in Archaeology </small></h3>
+		            <h4 class="education-date"><strong>2010</strong> | <small><strong>GPA: </strong>3.95/4.0</small></h4>
+								<h4 class="education-gpa"></h4>
+		          </div>
+		        </div>
+
+		    </div>
+			</div>
+
+		</div>
 
 	</body>
 </html>

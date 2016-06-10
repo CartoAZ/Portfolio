@@ -4,20 +4,20 @@ window.onload = setPage();
 
 function setPage(){
 
-    //jumbotron div
-    var jumbotron = d3.select("body").append("div")
-        .attr("class", "jumbotron")
-
-    //jumbotron container div
-    var jumbotronContainer = jumbotron.append("div")
-        .attr("class", "container")
-
-    var nameHeader = jumbotronContainer.append("h2")
-        .html("Alex Zarley")
-
-    var professions = jumbotronContainer.append("p")
-        .html("Cartographer | GIS | Archaeologist")
-    // 
+    // //jumbotron div
+    // var jumbotron = d3.select("body").append("div")
+    //     .attr("class", "jumbotron")
+    //
+    // //jumbotron container div
+    // var jumbotronContainer = jumbotron.append("div")
+    //     .attr("class", "container")
+    //
+    // var nameHeader = jumbotronContainer.append("h2")
+    //     .html("Alex Zarley")
+    //
+    // var professions = jumbotronContainer.append("p")
+    //     .html("Cartographer | GIS | Archaeologist")
+    //
     // var navbar = d3.select("body").append("nav")
     //     .attr("class", "navbar navbar-default navbar-fixed-top main-navbar")
     //

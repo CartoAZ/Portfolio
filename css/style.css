@@ -1,8 +1,56 @@
 /*pagecontent*/
-.page-content { padding: 30px 0; }
+.page-content {
+    padding: 30px 0;
+    background-color: #eeeeee;
+}
 
+.site-title {
+    font-size: 1.6em;
+}
+.site-header {
+    border-bottom: 1px solid #fff;
+    background-color: #3a6a2d;
+    position: fixed;
+}
 .page-heading { font-size: 20px; }
 
+.current-page { background-color: #549a41; }
+
+b, strong {
+    font-weight: bold;
+}
+
+html { font-size: 10px; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 16px; line-height: 1.42857; color: #444; background-color: #fff; }
+
+/*resume*/
+
+.resume-section { margin-bottom: 3rem; position: relative; display: block; }
+
+.resume-job, .resume-education, .resume-other { margin-bottom: 3rem; margin-left: 0; }
+
+.job-logo-container, .job-description-container, .education-logo-container, .education-description-container, .other-logo-container, .other-description-container { padding-left: 0; }
+
+.job-logo, .education-logo, .other-logo { max-width: 200px;}
+
+.other-link:hover { background-color: #eeeeee; }
+
+.job-header, .other-header { margin-top: 0; }
+
+.resume-skills { border: 1px; border-color: #fff; }
+
+.resume-skills-section { padding-left: 0; }
+.resume-skills-section h3 { margin-top: 0; }
+
+.job-header, .education-header, .other-header { margin-bottom: 0; }
+
+.job-time-location, .education-date, .other-date, .education-gpa { margin-top: 0; }
+
+.resume-hr { border: 1px solid #549a41; }
 
 /*portfolio*/
 .portfolio-thumbnail {
