@@ -1103,7 +1103,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #549a41;
   text-decoration: underline;
 }
 a:focus {
@@ -4964,7 +4964,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-image: url("../assets/dead-sea.png");
+  background-image: url("../assets/img/dead-sea.png");
   background-size: cover;
 }
 .jumbotron h1,
