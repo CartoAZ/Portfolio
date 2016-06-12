@@ -1,21 +1,73 @@
 /*pagecontent*/
-.page-content { padding: 30px 0; }
+.page-content {
+    padding: 30px 0;
+    background-color: #eeeeee;
+}
 
+.site-title {
+    font-size: 1.6em;
+}
+.site-header {
+    border-bottom: 1px solid #fff;
+    background-color: #3a6a2d;
+    position: fixed;
+}
 .page-heading { font-size: 20px; }
 
+.current-page { background-color: #549a41; }
+
+.jumbotron {
+    color: white;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+html { font-size: 10px; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 16px; line-height: 1.42857; color: #444; background-color: #fff; }
+
+/*resume*/
+
+.resume-section { margin-bottom: 3rem; position: relative; display: block; }
+
+.resume-job, .resume-education, .resume-other { margin-bottom: 3rem; margin-left: 0; }
+
+.job-logo-container, .job-description-container, .education-logo-container, .education-description-container, .other-logo-container, .other-description-container { padding-left: 0; }
+
+.job-logo, .education-logo, .other-logo { max-width: 200px;}
+
+.other-link:hover { background-color: #eeeeee; }
+
+.job-header, .other-header { margin-top: 0; }
+
+.resume-skills { border: 1px; border-color: #fff; }
+
+.resume-skills-section { padding-left: 0; }
+.resume-skills-section h3 { margin-top: 0; }
+
+.job-header, .education-header, .other-header { margin-bottom: 0; }
+
+.job-time-location, .education-date, .other-date, .education-gpa { margin-top: 0; }
+
+.resume-hr { border: 1px solid #549a41; }
 
 /*portfolio*/
 .portfolio-thumbnail {
 
-    border-width: 2px;
+    border-width: 0.5px;
     border-style: solid;
-    border-color: #2d5223;
+    border-color: #c3c3c3;
 }
 
 .portfolio-link {
     margin-top: 0;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #3a6a2d;
 }
 
@@ -32,9 +84,18 @@ a .post-link {
 }
 
 .portfolio-thumbnail:hover {
-    border-color: #a74ea5;
+    border-color: #2d5223;
     border-width: 3px;
     cursor: pointer;
+}
+
+/*icons*/
+
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
+
+ul.contact-list {
+    list-style: none;
 }
 
 /*.portfolio-asset {text-align: center; margin-bottom: 0; }*/
