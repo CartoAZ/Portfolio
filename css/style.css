@@ -71,7 +71,9 @@ body {
     color: #3a6a2d;
 }
 
-a .post-link {
+.post-link {
+    display: block;
+    font-size: 24px;
     color: #3a6a2d;
 }
 
@@ -90,14 +92,24 @@ a .post-link {
 }
 
 /*icons*/
+.icon--linkedin > svg{
+    background-color: #828282;
+    fill: #eeeeee;
+    border-radius: 5px;
+}
+
+.icon--email > svg{
+  fill: #828282;
+}
 
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
-.icon > svg path { fill: #828282; }
+/*.icon > svg path { fill: #828282; }*/
+
 
 ul.contact-list {
     list-style: none;
 }
 
-/*.portfolio-asset {text-align: center; margin-bottom: 0; }*/
+.portfolio-asset {text-align: center; margin-bottom: 0; }
 
-/*.portfolio-caption { text-align: center; }*/
+.portfolio-caption { text-align: center; }
